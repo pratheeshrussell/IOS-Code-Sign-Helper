@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("IOS Code Sign Helper")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This simple program that can be used to generate p12 files for codemagic.so that flutter apps can be built for IOS without a mac")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("IOS Code Sign Helper")]
