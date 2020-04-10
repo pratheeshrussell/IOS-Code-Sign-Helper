@@ -215,8 +215,12 @@ namespace IOS_Code_Sign_Helper
 			System.Diagnostics.Process.Start("https://pratheeshrussell.blogspot.com/2020/04/build-flutter-app-for-ios-using.html");
 		}
 
+
 		#endregion
 
-
+		private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			System.Diagnostics.Process.Start("https://github.com/pratheeshrussell/IOS-Code-Sign-Helper");
+		}
 	}
 }
