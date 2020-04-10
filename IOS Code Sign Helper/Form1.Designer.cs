@@ -54,6 +54,8 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -282,6 +284,8 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.linkLabel2);
+            this.tabPage3.Controls.Add(this.label10);
             this.tabPage3.Controls.Add(this.label9);
             this.tabPage3.Controls.Add(this.label8);
             this.tabPage3.Controls.Add(this.linkLabel1);
@@ -296,12 +300,12 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(45, 25);
+            this.label7.Location = new System.Drawing.Point(47, 26);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(329, 86);
+            this.label7.Size = new System.Drawing.Size(329, 113);
             this.label7.TabIndex = 0;
-            this.label7.Text = "This simple program to generate p12 files for codemagic so that flutter apps can " +
-    "be built for IOS without a mac";
+            this.label7.Text = "This simple program that can be used to generate p12 files for codemagic.so that " +
+    "flutter apps can be built for IOS without a mac";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // linkLabel1
@@ -327,11 +331,30 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(138, 94);
+            this.label9.Location = new System.Drawing.Point(137, 122);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(156, 17);
             this.label9.TabIndex = 3;
             this.label9.Text = "By Pratheesh Russell.S";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(17, 333);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(198, 17);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "Pull Requests are welcome at:";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(17, 364);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(374, 17);
+            this.linkLabel2.TabIndex = 5;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "https://github.com/pratheeshrussell/IOS-Code-Sign-Helper";
             // 
             // Form1
             // 
@@ -388,6 +411,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.Label label10;
     }
 }
 
