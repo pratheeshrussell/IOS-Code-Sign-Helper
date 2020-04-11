@@ -1,1 +1,80 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en-US" hc="a0" hcx="0"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>IOS Code Sign Helper</title>
+<meta property="og:title" content="IOS Code Sign Helper">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="A simple program that can be used to generate p12 files for codemagic.so that flutter apps can be built for IOS without a mac.">
+<meta property="og:description" content="A simple program that can be used to generate p12 files for codemagic.so that flutter apps can be built for IOS without a mac.">
+<link rel="canonical" href="https://pratheeshrussell.github.io/IOS-Code-Sign-Helper/">
+<meta property="og:url" content="https://pratheeshrussell.github.io/IOS-Code-Sign-Helper/">
+<meta property="og:site_name" content="IOS Code Sign Helper">
+
+
+    <link rel="stylesheet" href="files/style.css">
+  </head>
+  <body data-gr-c-s-loaded="true">
+    <div class="wrapper">
+      <header>
+        <h1><a href="https://github.com/pratheeshrussell/IOS-Code-Sign-Helper">IOS Code Sign Helper</a></h1>
+        
+        
+          <img src="files/logo.png" alt="Logo">
+      
+        <p class="view"><a href="https://github.com/pratheeshrussell/IOS-Code-Sign-Helper">View the Project on GitHub<small></small></a></p>
+
+        <ul class="downloads">
+          <li><a href="https://github.com/pratheeshrussell/IOS-Code-Sign-Helper/releases/download/V-1.0.0.0/Release-1.0.0.0.zip">Download <strong>Release</strong></a></li>
+		  <li><a href="https://github.com/pratheeshrussell/IOS-Code-Sign-Helper/archive/V-1.0.0.0.zip">Download <strong>Source</strong></a></li>
+          <li><a href="https://github.com/pratheeshrussell/IOS-Code-Sign-Helper/releases">View On <strong>GitHub</strong></a></li>
+        </ul>
+        
+      </header>
+      <section>
+
+
+<h1 id="header-1">IOS Code Sign Helper</h1>
+
+<p>A simple program that can be used to generate p12 files for codemagic.so that flutter apps can be built for IOS without a mac. The files depend on openSSL to generate the request certificates and the p12 files. I used a copy from https://indy.fulgan.com/SSL/
+</p>
+<p>The openSSL files should be placed in a folder named openssl alongside the exe files.</p>
+
+
+<hr>
+<h2 id="header-2">How to use the Program:</h2>
+<ol>
+  <li>Create a project in the "Generate Sign Request" tab</li>
+  <li>Generate a Certificate Sign Request File and if required copy it to any Location</li>
+  <li>Use the request file to generate a certificate file from Apple through their developer program</li>
+  <li>Go to the "Generate p12 File" tab in the program. Choose your project</li>
+  <li>Import the cer file obtained from apple</li>
+  <li>Generate the p12 file. You can save a copy to another location</li>
+  <li>Use the p12 file to build ios app using codemagic (or anywhere else)</li>
+</ol>
+
+
+<hr>
+
+<blockquote>
+  <p>The program has not been tested yet but should work</p>
+
+  <p>If you wish to contribute. Issue a pull request</p>
+</blockquote>
+
+
+
+
+
+
+
+      </section>
+     
+    </div>
+    <div id="hc_extension_bkgnd" style="position: fixed; left: 0px; top: 0px; right: 0px; bottom: 0px; z-index: -1999999999; display: block; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"></div><script src="files/scale.fix.js"></script>
+    
+  
+
+</body></html>
